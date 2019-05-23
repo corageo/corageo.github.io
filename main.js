@@ -7,5 +7,29 @@ $(document).ready(function () {
 function handleSubmit(event) {
   event.preventDefault();
 
-  console.log('submit');
+  var msg = $('#msg').val();
+  var email = $('#email').val();
+
+  var data = {
+    to: "corageosk@gmail.com",
+    subject: "corageo.github.io",
+    body: msg,
+    from: email
+  }
+
+  $.ajax({
+    type: "POST",
+    url: "https://stored.azurewebsites.net/api/mail",
+    headers: {
+      "Authorization": 'Bearer ' + token
+    },
+    data: JSON.stringify(data),
+    contentType: "application/json"
+  })
+    .done(function () {
+      console.log('OK');
+    })
+    .fail(function (error) {
+      console.log(error);
+    });
 }

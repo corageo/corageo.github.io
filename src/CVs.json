@@ -2,29 +2,53 @@
     {
         "id": 1,
         "name": "Samuel Manik",
-        "Základná škola":"",
-        "Stredná škola": "",
-        "Skills":""
+        "experience": [],
+        "education": [],
+        "skills": "",
+        "interests": ""
     },
     {
         "id": 2,
         "name": "Marek Kormoš",
-        "Základná škola":"",
-        "Stredná škola": "",
-        "Skills":""
+        "experience": [],
+        "education": [],
+        "skills": "",
+        "interests": ""
     },
     {
         "id": 3,
         "name": "Jozef Švagerko",
-        "Základná škola":"",
-        "Stredná škola": "",
-        "Skills":""
+        "experience": [],
+        "education": [],
+        "skills": "",
+        "interests": ""
     },
     {
         "id": 4,
         "name": "Marko Tomčík",
-        "Základná škola":"",
-        "Stredná škola": "",
-        "Skills":""
+        "experience": [
+            {
+                "name": "Web Developer",
+                "company": "HULMAN Design Studio",
+                "start": "March 2021",
+                "end": null
+            },
+            {
+                "name": "Programátor",
+                "company": "CORAgeo",
+                "start": "July 2021",
+                "end": null
+            }
+        ],
+        "education": [
+            {
+                "startYear": 2018,
+                "endYear": 2022,
+                "schoolName": "Stredná priemyselná škola technická",
+                "schoolAddress": "Hviezdoslavová 6, 052 01 Spišská Nová Ves"
+            }
+        ],
+        "skills": [ "React", "HTML", "CSS", "JavaScript" ],
+        "interests": [ "knihy", "hudba" ]
     }
 ]

@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-      <p>2021 CORAGEO &copy;</p>
+    <div className="bg-gray-600">
+      <p className="text-center text-white text-opacity-40 py-8">2021 CORAGEO &copy;</p>
     </div>
   )
 }

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Samuel Manik",
+        "Základná škola":"",
+        "Stredná škola": "",
+        "Skills":""
+    },
+    {
+        "id": 2,
+        "name": "Marek Kormoš",
+        "Základná škola":"",
+        "Stredná škola": "",
+        "Skills":""
+    },
+    {
+        "id": 3,
+        "name": "Jozef Švagerko",
+        "Základná škola":"",
+        "Stredná škola": "",
+        "Skills":""
+    },
+    {
+        "id": 4,
+        "name": "Marko Tomčík",
+        "Základná škola":"",
+        "Stredná škola": "",
+        "Skills":""
+    }
+]

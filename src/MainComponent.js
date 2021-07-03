@@ -1,10 +1,11 @@
 import React from 'react'
+import Link from './LinkComponent'
 
 function Main() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Link />
+    </>
   )
 }
 

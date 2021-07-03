@@ -1,10 +1,11 @@
 import React from 'react'
+import CV from './CVComponent'
 
 function Link() {
   return (
-    <div>
+    <>
       
-    </div>
+    </>
   )
 }
 

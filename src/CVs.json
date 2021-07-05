@@ -3,10 +3,37 @@
         {
             "id": 1,
             "name": "Samuel Manik",
-            "experience": [],
-            "education": [],
-            "skills": "",
-            "interests": ""
+            "experience": [
+                {
+                    "name": "Programmer",
+                    "company": "CORAgeo",
+                    "start": "July 2021",
+                    "end": null
+                },
+                {
+                    "name": "part-time worker",
+                    "company": "VUB bank",
+                    "start": "July 2019",
+                    "end": "June 2021"
+                }
+            ],
+            "education": [
+                {
+                    "startYear": 2017,
+                    "endYear": 2021,
+                    "schoolName": "Gymnázium na ul.Dominika Tatarku v Poprade",
+                    "schoolAddress": "Dominika Tatarku 4666/7, 058 01 Poprad"
+                }
+            ],
+            "skills": [
+                "Python",
+                "C",
+                "Java"
+            ],
+            "interests": [
+                "Games",
+                "Movies"
+            ]
         },
         {
             "id": 2,
@@ -82,6 +109,33 @@
                 "knihy",
                 "hudba"
             ]
+        },
+        {
+            "id": 1,
+            "name": "Samuel Manik",
+            "experience": [
+                {
+                    "name": "Programátor",
+                    "company": "CORAgeo",
+                    "start": "Júl 2021",
+                    "end": null
+                },
+                {
+                    "name": "brigádnik",
+                    "company": "VUB banka",
+                    "start": "Júl 2019",
+                    "end": "Jún 2021"
+                }
+            ],
+            "education": [
+                {
+                    "startYear": 2017,
+                    "endYear": 2021,
+                    "schoolName": "Gymnázium na ul.Dominika Tatarku v Poprade",
+                    "schoolAddress": "Dominika Tatarku 4666/7, 058 01 Poprad"
+                }
+            ],
+
         }
     ]
 }

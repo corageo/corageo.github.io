@@ -1,54 +1,45 @@
 import React from 'react'
 
-function CV() {
+function CV(id) {
+  var json = require('./CVs.json')
+  const Person = json['en'][parseInt(id['id']) - 1]
+  console.log(Person)
+  var Meno = Person['name']
+  var Age = Person['age']
+
+  function Jobs() { //mapping Person's Jobs in json and pushing it to div
+    return (Person['experience'].map((Job) => {
+      return <> <div>{Job.name}</div><div>{Job.company}</div><div>{Job.start} - {Job.end}</div></>
+    }))
+  }
+  
+  function Education(){    //mapping Person's Education in json and pushing it to div
+    return (Person['education'].map((School) => {
+      return <> <div>{School.name}</div><div>{School.adress}</div><div>{School.start} - {School.end}</div></>
+    }))
+  }
+
   return (
     <div>
-       <section id="about">
-      <div>
-        <h1>Meno</h1>
+      <section id="about">
         <div>
-          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          <h1>{Meno}</h1>
+          <h3>{Age}</h3>
         </div>
-        <p>
-          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-        </p>
-      </div>
-    </section>
-
-    <section id="experience">
-      <h2>Experience</h2>
-      <div>
+      </section>
+      <section id="Experience">
+        <h2>Experience</h2>
+        <div>        
+          {Jobs()}
+        </div>
+      </section>
+      <section id = "Education">
         <div>
-          <h3>Senior Web Developer</h3>
-          <div>Intelitec Solutions</div>
-          <p>
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-          </p>
+          {Education()}
         </div>
-        <div>March 2013 - Present</div>
-      </div>
-      <div>
-        <div>
-          <h3>Web Developer</h3>
-          <div>Intelitec Solutions</div>
-          <p>
-           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-          </p>
-        </div>
-        <div>December 2011 - March 2013</div>
-      </div>
-      <div>
-        <div>
-          <h3>Junior Web Designer</h3>
-          <div>SHOUT!</div>
-          <p>
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-          </p>
-        </div>
-        <div>July 2010 - December 2011</div>
-      </div>
-    </section>
-
+      </section>
+    </div>
+/*
     <section id="education">
       <h2>Education</h2>
       <p>
@@ -68,8 +59,8 @@ function CV() {
       <p>
         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
       </p>
-    </section>
-    </div>
+    </section> 
+    </div> */
   )
 }
 

@@ -90,27 +90,6 @@
     ],
     "sk": [
         {
-            "id": 4,
-            "experience": [
-                {
-                    "name": "Web Developer",
-                    "company": "HULMAN Design Studio",
-                    "start": "Marec 2021",
-                    "end": null
-                },
-                {
-                    "name": "Programátor",
-                    "company": "CORAgeo",
-                    "start": "Júl 2021",
-                    "end": null
-                }
-            ],
-            "interests": [
-                "knihy",
-                "hudba"
-            ]
-        },
-        {
             "id": 1,
             "name": "Samuel Manik",
             "experience": [
@@ -135,7 +114,42 @@
                     "schoolAddress": "Dominika Tatarku 4666/7, 058 01 Poprad"
                 }
             ],
-
+        },
+        {
+            "id": 4,
+            "name": "Marko Tomčík",
+            "experience": [
+                {
+                    "name": "Web Developer",
+                    "company": "HULMAN Design Studio",
+                    "start": "Marec 2021",
+                    "end": null
+                },
+                {
+                    "name": "Programátor",
+                    "company": "CORAgeo",
+                    "start": "Júl 2021",
+                    "end": null
+                }
+            ],
+            "education": [
+                {
+                    "startYear": 2018,
+                    "endYear": 2022,
+                    "schoolName": "Stredná priemyselná škola technická",
+                    "schoolAddress": "Hviezdoslavová 6, 052 01 Spišská Nová Ves"
+                }
+            ],
+            "skills": [
+                "React",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "interests": [
+                "knihy",
+                "hudba"
+            ]
         }
     ]
 }

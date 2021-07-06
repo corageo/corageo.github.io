@@ -156,30 +156,6 @@
                     "address": "Dominika Tatarku 4666/7, 058 01 Poprad"
                 }
             ]
-<<<<<<< HEAD
-
-=======
-        },
-        {
-            "id": 3,
-            "name": "Jozef Švagerko",
-            "experience": [
-                {
-                    "name": "Programátor",
-                    "company": "CORAgeo",
-                    "start": "Júl 2021",
-                    "end": null
-                }
-            ],
-            "education": [
-                {
-                    "startYear": 2018,
-                    "endYear": 2022,
-                    "schoolName": "Gymnázium na ul.Dominika Tatarku v Poprade",
-                    "schoolAddress": "Dominika Tatarku 4666/7, 058 01 Poprad"
-                }
-            ]
->>>>>>> 3e662795702d0f9e50bf29b07963a5c08f8528a6
         }
     ]
 }

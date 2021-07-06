@@ -23,6 +23,21 @@ function App() {
         <Footer />
        </div>
     </Route>
+    <Route path="/en/kormoš">
+        <Header />
+        <CV id="2" />
+        <Footer />
+    </Route>
+    <Route path="/en/švagerko">
+        <Header />
+        <CV id="3" />
+        <Footer />
+    </Route>
+    <Route path="/en/tomčík">
+        <Header />
+        <CV id="4" />
+        <Footer />
+    </Route>
     <Route path="/en/manik">
         <Header />
         <CV id="1" />
